@@ -1,0 +1,40 @@
+#acerca-dmi{
+    display: flex;
+    flex-direction: row;
+    background-color: lightsteelblue;
+}
+
+#btn-cv{
+   display: none; 
+}
+
+h1{
+    color: var(--dark-blue);
+
+}
+
+@media screen and (max-width: 600px)  {
+    #acerca-dmi{
+        background-color: var(--my-color);
+    }
+
+    #nav-bar{
+        display: none;
+    }
+
+    #btn-cv{
+        display: block;
+    }
+
+    .miFoto{
+        position: absolute;
+        width: 374px;
+        height: 490.65px;
+        left: 849px;
+        top: 74px;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,35 @@
+
+@import url(./acerca-dmi.css);
+
+:root{
+    --fontBase: 'Roboto', sans-serif;
+    --dark-blue:    #310a90;
+    --my-color: greenyellow;
+}
+
+body{
+    font-family: var(--fontBase);
+    color: var(--dark-blue);
+
+}
+
+#acerca-dmi{
+    display: flex;
+    flex-direction: row;
+    background-color: lightsteelblue;
+}
+
+h1{
+    color: var(--dark-blue);
+
+}
+
+.miFoto{
+    position: absolute;
+    width: 200px;
+    height: 150.65px;
+    left: 849px;
+    top: 74px;
+
+    
+}
